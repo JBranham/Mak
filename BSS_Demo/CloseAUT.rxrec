@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a2e1ea22-a91e-45ec-9c4a-8e928bacf32a"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="BSS_Demo">
+	</codegen>
+	<variables>
+		<var
+		id="6449a7dc-5dc5-482b-843a-84cc8b74c9fa"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="03bbb7ac-0e96-436f-9c15-366f4bf22afd">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="4e29f1a0-5c60-4bea-966d-e055e9aac9e9"
+	name="BSS_DemoRepository"
+	relativepath="BSS_DemoRepository.rxrep">
+		<codegen
+		classname="BSS_DemoRepository"
+		namespace="BSS_Demo">
+		</codegen>
+		<rootfolder
+		id="acc7ca1f-fcef-43df-a162-19deedd2f852"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

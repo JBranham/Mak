@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c2ee6319-02a6-4bb1-9997-075603e0c14d"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="BSS_Demo">
+	</codegen>
+	<variables>
+		<var
+		id="f5bdd822-cb78-425b-9962-c576621636ab"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\jbranham\Desktop\VipV1.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="4e29f1a0-5c60-4bea-966d-e055e9aac9e9"
+	name="BSS_DemoRepository"
+	relativepath="BSS_DemoRepository.rxrep">
+		<codegen
+		classname="BSS_DemoRepository"
+		namespace="BSS_Demo">
+		</codegen>
+		<rootfolder
+		id="acc7ca1f-fcef-43df-a162-19deedd2f852"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
